@@ -7,5 +7,5 @@ wss.on('connection', (ws) => {
     console.log('received: %s', message);
   });
 
-  ws.send('dupa');
+  ws.send('Some data from server');
 });

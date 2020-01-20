@@ -3,12 +3,6 @@ import React, { Component } from 'react';
 import './App.css';
 
 class App extends Component {
-  state = {
-    response: '',
-    post: '',
-    responseToPost: '',
-  };
-  
   componentDidMount() {
     var testSocket = new WebSocket('ws://localhost:5000')
 
